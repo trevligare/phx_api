@@ -13,7 +13,7 @@ config :phx_api,
 config :phx_api, PhxApiWeb.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "8Lju0lYxRehlnu3Vj4GkcDF9K74uz2lHHfFYtFaXJwnzMoTkMk9XhX0kpsEWBUc5",
-  render_errors: [view: PhxApiWeb.ErrorView, accepts: ~w(html json)],
+  render_errors: [view: PhxApiWeb.ErrorView, accepts: ~w(json)],
   pubsub: [name: PhxApi.PubSub,
            adapter: Phoenix.PubSub.PG2]
 

@@ -20,6 +20,6 @@ defmodule PhxApiWeb.Router do
   scope "/api", PhxApiWeb do
     pipe_through :api
 
-    # post "/v1/reports", ReportController, :create
+    post "/v1/reports", ReportController, :create
   end
 end
